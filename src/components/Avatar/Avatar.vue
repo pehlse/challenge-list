@@ -1,6 +1,12 @@
 <template>
   <div>
-    <img class="avatar" v-if="img" :src="img" alt="Foto de perfil">
+    <img 
+      class="avatar"
+      v-if="img"
+      :src="img"
+      alt="Foto de perfil"
+      data-testid="avatar__photo"
+    >
     <p v-else data-testid="avatar__no-photo">Sem foto</p>
   </div>
 </template>
