@@ -6,15 +6,15 @@ import Header from '@/components/Header/Header.vue'
 
 <template>
   <Header/>
-  <body>
+  <body class="container">
     <RouterView />
   </body>
-
-
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.container {
+  background-color: var(--g-white2);
+}
 @media (min-width: 1024px) {
 }
 </style>

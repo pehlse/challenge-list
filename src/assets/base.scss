@@ -1,5 +1,6 @@
 :root {
   --g-white: #F6F8F9;
+  --g-white2: #fdfdfd;
   --g-dark: #2C2E30;
   --g-gray: #D8D8D8;
   --g-gray-2: #7c7c7c;
@@ -49,7 +50,7 @@
 }
 
 body {
-  min-height: 100vh;
+  // min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
