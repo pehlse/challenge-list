@@ -1,5 +1,5 @@
 <template>
-  <div ref="scrollComponent" style="text-align: center">
+  <div ref="scrollComponent" class="infinite-loading">
     <slot/>
 
     <p v-if="noMoreResults">{{ messageNoMoreResults }}</p>
@@ -43,7 +43,11 @@ const handleScroll = (e) => {
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  .infinite-loading {
+    text-align: center;
+  }
+
   .spinner {
     display: inline-block;
     height: 2rem;
