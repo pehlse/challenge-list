@@ -1,10 +1,10 @@
 <template>
-    <header class="header-wrapper">
-      <img class="header-wrapper__image" src="@/assets/deloitte.svg" alt="Logo">
-      <div>
-        <h2 class="header-wrapper__title">Frontend challenge</h2>
-      </div>
-    </header>
+  <header class="header-wrapper">
+    <img class="header-wrapper__image" src="@/assets/deloitte.svg" alt="Logo">
+    <div>
+      <h2 class="header-wrapper__title">Frontend challenge</h2>
+    </div>
+  </header>
 </template>
 
 <script setup>

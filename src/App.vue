@@ -15,6 +15,4 @@ import Header from '@/components/Header/Header.vue'
 .container {
   background-color: var(--g-white2);
 }
-@media (min-width: 1024px) {
-}
 </style>
